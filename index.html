@@ -5,19 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>챗봇</title>
   <style>
-    /* 웹앱 스타일링을 추가하는 것을 잊지 마세요 */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      padding: 16px;
+      overflow: hidden;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+    }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://www.chatbase.co/chatbot-iframe/fv8k49u0Yfw8yvTTAny3X"
-    width="100%"
-    height="700"
-    frameborder="0"
-  ></iframe>
-
-  <script>
-    // 필요한 JavaScript 코드를 추가하세요
-  </script>
+  <div class="wrapper">
+    <iframe
+      src="https://www.chatbase.co/chatbot-iframe/fv8k49u0Yfw8yvTTAny3X"
+      width="100%"
+      height="700"
+      frameborder="0"
+    ></iframe>
+  </div>
 </body>
 </html>
